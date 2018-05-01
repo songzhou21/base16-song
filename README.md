@@ -11,3 +11,6 @@ Supports only graphical Vim
 copy from [chriskempson/tomorrow-theme](https://github.com/chriskempson/tomorrow-theme/tree/master/vim/colors)
 
 ![Tomorrow-Night.vim](https://raw.githubusercontent.com/songzhou21/base16-song/master/vim-tomorrow-night.png)
+
+## style guidelines
+[base16 style guidelines](https://github.com/chriskempson/base16/blob/master/styling.md)
