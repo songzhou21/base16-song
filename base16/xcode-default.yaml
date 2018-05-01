@@ -4,9 +4,9 @@ author: "Song Zhou"
 # Default Background
 base00: "ffffff"
 # Lighter Background (Used for status bars)
-base01: "e8e8e8"
+base01: "f4f4f4"
 # status line, vert_split, search
-base02: "d8d8d8"
+base02: "e4e4e4"
 # Comments, Invisibles, Line Highlighting
 base03: "939393"
 # Dark Foreground (Used for status bars)
@@ -16,7 +16,7 @@ base05: "383838"
 # Light Foreground (Not often used)
 base06: "282828"
 # Light Background (Not often used)
-base07: "181818"
+base07: "000000"
 # Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
 base08: "000000"
 # Integers, Boolean, Constants, XML Attributes, Markup Link Url
