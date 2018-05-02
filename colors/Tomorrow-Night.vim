@@ -107,19 +107,23 @@ call <SID>X("phpStatement", s:purple, "", "")
 call <SID>X("phpMemberSelector", s:foreground, "", "")
 
 " Ruby Highlighting
-call <SID>X("rubySymbol", s:green, "", "")
 call <SID>X("rubyConstant", s:yellow, "", "")
 call <SID>X("rubyAccess", s:yellow, "", "")
+
+call <SID>X("rubySymbol", s:green, "", "")
+call <SID>X("rubyStringDelimiter", s:green, "", "")
+
 call <SID>X("rubyAttribute", s:blue, "", "")
 call <SID>X("rubyInclude", s:blue, "", "")
-call <SID>X("rubyLocalVariableOrMethod", s:orange, "", "")
-call <SID>X("rubyCurlyBlock", s:orange, "", "")
-call <SID>X("rubyStringDelimiter", s:green, "", "")
-call <SID>X("rubyInterpolationDelimiter", s:orange, "", "")
+
 call <SID>X("rubyConditional", s:purple, "", "")
 call <SID>X("rubyRepeat", s:purple, "", "")
 call <SID>X("rubyControl", s:purple, "", "")
 call <SID>X("rubyException", s:purple, "", "")
+
+call <SID>X("rubyLocalVariableOrMethod", s:orange, "", "")
+call <SID>X("rubyCurlyBlock", s:orange, "", "")
+call <SID>X("rubyInterpolationDelimiter", s:orange, "", "")
 
 " Crystal Highlighting
 call <SID>X("crystalSymbol", s:green, "", "")
