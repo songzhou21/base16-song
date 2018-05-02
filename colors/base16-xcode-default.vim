@@ -356,9 +356,7 @@ call <sid>hi("rubyStringDelimiter",         s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("rubyConditional",             s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("rubyRepeat",                  s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("rubyControl",                 s:gui0E, "", s:cterm0E, "", "", "")
-call <sid>hi("rubyException",               s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("RubyPredefinedConstant",      s:gui0A, "", s:cterm0A, "", "", "")
-"call <sid>hi("RubyStringEscape",            s:gui0A, "", s:cterm0A, "", "", "")
 
 " SASS highlighting
 call <sid>hi("sassidChar",     s:gui08, "", s:cterm08, "", "", "")
