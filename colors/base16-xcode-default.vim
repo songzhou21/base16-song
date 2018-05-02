@@ -41,8 +41,8 @@ let s:gui0B        = "C41A16"
 let g:base16_gui0B = "C41A16"
 let s:gui0C        = "000000"
 let g:base16_gui0C = "000000"
-let s:gui0D        = "22005B"
-let g:base16_gui0D = "22005B"
+let s:gui0D        = "26474B"
+let g:base16_gui0D = "26474B"
 let s:gui0E        = "AA0D91"
 let g:base16_gui0E = "AA0D91"
 let s:gui0F        = "a16946"
@@ -103,7 +103,7 @@ if has("nvim")
   let g:terminal_color_1 =  "#000000"
   let g:terminal_color_2 =  "#C41A16"
   let g:terminal_color_3 =  "#3F6E74"
-  let g:terminal_color_4 =  "#22005B"
+  let g:terminal_color_4 =  "#26474B"
   let g:terminal_color_5 =  "#AA0D91"
   let g:terminal_color_6 =  "#000000"
   let g:terminal_color_7 =  "#383838"
@@ -111,7 +111,7 @@ if has("nvim")
   let g:terminal_color_9 =  "#000000"
   let g:terminal_color_10 = "#C41A16"
   let g:terminal_color_11 = "#3F6E74"
-  let g:terminal_color_12 = "#22005B"
+  let g:terminal_color_12 = "#26474B"
   let g:terminal_color_13 = "#AA0D91"
   let g:terminal_color_14 = "#000000"
   let g:terminal_color_15 = "#000000"
@@ -357,6 +357,7 @@ call <sid>hi("rubyConditional",             s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("rubyRepeat",                  s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("rubyControl",                 s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("RubyPredefinedConstant",      s:gui0A, "", s:cterm0A, "", "", "")
+call <sid>hi("rubyException",               s:gui0D, "", s:cterm0D, "", "", "")
 
 " SASS highlighting
 call <sid>hi("sassidChar",     s:gui08, "", s:cterm08, "", "", "")
