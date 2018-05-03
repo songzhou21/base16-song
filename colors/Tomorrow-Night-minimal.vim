@@ -102,6 +102,12 @@ call <SID>X("Repeat", s:foreground, "", "")
 " Vim Highlighting
 call <SID>X("vimCommand", s:red, "", "none")
 
+" C Highlighting
+call <SID>X("cType", s:yellow, "", "")
+call <SID>X("cStorageClass", s:purple, "", "")
+call <SID>X("cConditional", s:purple, "", "")
+call <SID>X("cRepeat", s:purple, "", "")
+
 " Ruby Highlighting
 call <SID>X("rubyConstant", s:yellow, "", "")
 call <SID>X("rubyAccess", s:yellow, "", "")
@@ -120,6 +126,40 @@ call <SID>X("rubyException", s:purple, "", "")
 call <SID>X("rubyLocalVariableOrMethod", s:orange, "", "")
 call <SID>X("rubyCurlyBlock", s:orange, "", "")
 call <SID>X("rubyInterpolationDelimiter", s:orange, "", "")
+
+" Python Highlighting
+call <SID>X("pythonInclude", s:purple, "", "")
+call <SID>X("pythonStatement", s:purple, "", "")
+call <SID>X("pythonConditional", s:purple, "", "")
+call <SID>X("pythonRepeat", s:purple, "", "")
+call <SID>X("pythonException", s:purple, "", "")
+call <SID>X("pythonFunction", s:blue, "", "")
+call <SID>X("pythonPreCondit", s:purple, "", "")
+call <SID>X("pythonRepeat", s:aqua, "", "")
+call <SID>X("pythonExClass", s:orange, "", "")
+
+" JavaScript Highlighting
+call <SID>X("javaScriptBraces", s:foreground, "", "")
+call <SID>X("javaScriptFunction", s:purple, "", "")
+call <SID>X("javaScriptConditional", s:purple, "", "")
+call <SID>X("javaScriptRepeat", s:purple, "", "")
+call <SID>X("javaScriptNumber", s:orange, "", "")
+call <SID>X("javaScriptMember", s:orange, "", "")
+call <SID>X("javascriptNull", s:orange, "", "")
+call <SID>X("javascriptGlobal", s:blue, "", "")
+call <SID>X("javascriptStatement", s:red, "", "")
+
+" HTML Highlighting
+call <SID>X("htmlTag", s:red, "", "")
+call <SID>X("htmlTagName", s:red, "", "")
+call <SID>X("htmlArg", s:red, "", "")
+call <SID>X("htmlScriptTag", s:red, "", "")
+
+" CoffeeScript Highlighting
+call <SID>X("coffeeRepeat", s:purple, "", "")
+call <SID>X("coffeeConditional", s:purple, "", "")
+call <SID>X("coffeeKeyword", s:purple, "", "")
+call <SID>X("coffeeObject", s:yellow, "", "")
 
 " Diff Highlighting
 call <SID>X("diffAdd", "", "4c4e39", "")
