@@ -79,17 +79,28 @@ call <SID>X("Keyword", s:orange, "", "")
 call <SID>X("String", s:green, "", "")
 call <SID>X("Operator", s:aqua, "", "none")
 
-call <SID>X("Structure", s:foreground, "", "")
-call <SID>X("PreProc", s:foreground, "", "")
-call <SID>X("Define", s:foreground, "", "none")
+"call <SID>X("Structure", s:foreground, "", "")
+"call <SID>X("PreProc", s:foreground, "", "")
+"call <SID>X("Define", s:foreground, "", "none")
+call <SID>X("Structure", s:purple, "", "")
+call <SID>X("PreProc", s:purple, "", "")
+call <SID>X("Define", s:purple, "", "none")
 
+
+"call <SID>X("Function", s:foreground, "", "")
+"call <SID>X("Type", s:foreground, "", "none")
+"call <SID>X("Include", s:foreground, "", "")
+call <SID>X("Function", s:blue, "", "")
+call <SID>X("Type", s:blue, "", "none")
+call <SID>X("Include", s:blue, "", "")
+
+call <SID>X("Special", s:foreground, "", "")
 call <SID>X("Statement", s:foreground, "", "")
 call <SID>X("Conditional", s:foreground, "", "")
 call <SID>X("Repeat", s:foreground, "", "")
-call <SID>X("Function", s:foreground, "", "")
-call <SID>X("Special", s:foreground, "", "")
-call <SID>X("Type", s:foreground, "", "none")
-call <SID>X("Include", s:foreground, "", "")
+
+" Vim Highlighting
+call <SID>X("vimCommand", s:red, "", "none")
 
 " Ruby Highlighting
 call <SID>X("rubyConstant", s:yellow, "", "")
@@ -109,6 +120,17 @@ call <SID>X("rubyException", s:purple, "", "")
 call <SID>X("rubyLocalVariableOrMethod", s:orange, "", "")
 call <SID>X("rubyCurlyBlock", s:orange, "", "")
 call <SID>X("rubyInterpolationDelimiter", s:orange, "", "")
+
+" Diff Highlighting
+call <SID>X("diffAdd", "", "4c4e39", "")
+call <SID>X("diffDelete", s:background, s:red, "")
+call <SID>X("diffChange", "", "2B5B77", "")
+call <SID>X("diffText", s:line, s:blue, "")
+
+" Git
+call <SID>X("diffAdded", s:green, "", "")
+call <SID>X("diffRemoved", s:red, "", "")
+call <SID>X("gitcommitSummary", "", "", "bold")
 
 " Delete Functions
 delf <SID>X
