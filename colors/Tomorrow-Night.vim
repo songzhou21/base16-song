@@ -72,22 +72,25 @@ end
 call <SID>X("Comment", s:comment, "", "")
 call <SID>X("Todo", s:comment, s:background, "")
 call <SID>X("Title", s:comment, "", "")
+
 call <SID>X("Identifier", s:red, "", "none")
-call <SID>X("Statement", s:foreground, "", "")
-call <SID>X("Conditional", s:foreground, "", "")
-call <SID>X("Repeat", s:foreground, "", "")
-call <SID>X("Structure", s:purple, "", "")
-call <SID>X("Function", s:blue, "", "")
 call <SID>X("Constant", s:orange, "", "")
 call <SID>X("Keyword", s:orange, "", "")
 call <SID>X("String", s:green, "", "")
-call <SID>X("Special", s:foreground, "", "")
-call <SID>X("PreProc", s:purple, "", "")
 call <SID>X("Operator", s:aqua, "", "none")
-call <SID>X("Type", s:blue, "", "none")
+
+call <SID>X("Structure", s:purple, "", "")
+call <SID>X("PreProc", s:purple, "", "")
 call <SID>X("Define", s:purple, "", "none")
+
+call <SID>X("Function", s:blue, "", "")
+call <SID>X("Type", s:blue, "", "none")
 call <SID>X("Include", s:blue, "", "")
-"call <SID>X("Ignore", "666666", "", "")
+
+call <SID>X("Special", s:foreground, "", "")
+call <SID>X("Statement", s:foreground, "", "")
+call <SID>X("Conditional", s:foreground, "", "")
+call <SID>X("Repeat", s:foreground, "", "")
 
 " Vim Highlighting
 call <SID>X("vimCommand", s:red, "", "none")

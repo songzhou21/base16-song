@@ -22,18 +22,18 @@ hi clear
 syntax reset
 set background=dark
 
-let g:colors_name = "Tomorrow-Night"
+let g:colors_name = "Tomorrow-Night-minimal"
 
 " Sets the highlighting for the given group
 fun <SID>X(group, fg, bg, attr)
     if a:fg != ""
-        exec "hi " . a:group . " guifg=#" . a:fg . " ctermfg=" . a:fg
+        exec "hi " . a:group . " ctermfg=" . a:fg
     endif
     if a:bg != ""
-        exec "hi " . a:group . " guibg=#" . a:bg . " ctermbg=" . a:bg
+        exec "hi " . a:group .  " ctermbg=" . a:bg
     endif
     if a:attr != ""
-        exec "hi " . a:group . " gui=" . a:attr . " cterm=" . a:attr
+        exec "hi " . a:group . " cterm=" . a:attr
     endif
 endfun
 
@@ -79,14 +79,36 @@ call <SID>X("Keyword", s:orange, "", "")
 call <SID>X("String", s:green, "", "")
 call <SID>X("Operator", s:aqua, "", "none")
 
+call <SID>X("Structure", s:foreground, "", "")
+call <SID>X("PreProc", s:foreground, "", "")
+call <SID>X("Define", s:foreground, "", "none")
+
 call <SID>X("Statement", s:foreground, "", "")
 call <SID>X("Conditional", s:foreground, "", "")
 call <SID>X("Repeat", s:foreground, "", "")
-call <SID>X("Structure", s:foreground, "", "")
 call <SID>X("Function", s:foreground, "", "")
 call <SID>X("Special", s:foreground, "", "")
-call <SID>X("PreProc", s:foreground, "", "")
 call <SID>X("Type", s:foreground, "", "none")
-call <SID>X("Define", s:foreground, "", "none")
 call <SID>X("Include", s:foreground, "", "")
 
+" Ruby Highlighting
+call <SID>X("rubyConstant", s:yellow, "", "")
+call <SID>X("rubyAccess", s:yellow, "", "")
+
+call <SID>X("rubySymbol", s:green, "", "")
+call <SID>X("rubyStringDelimiter", s:green, "", "")
+
+call <SID>X("rubyAttribute", s:blue, "", "")
+call <SID>X("rubyInclude", s:blue, "", "")
+
+call <SID>X("rubyConditional", s:purple, "", "")
+call <SID>X("rubyRepeat", s:purple, "", "")
+call <SID>X("rubyControl", s:purple, "", "")
+call <SID>X("rubyException", s:purple, "", "")
+
+call <SID>X("rubyLocalVariableOrMethod", s:orange, "", "")
+call <SID>X("rubyCurlyBlock", s:orange, "", "")
+call <SID>X("rubyInterpolationDelimiter", s:orange, "", "")
+
+" Delete Functions
+delf <SID>X
